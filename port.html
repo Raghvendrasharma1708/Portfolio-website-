@@ -1,0 +1,171 @@
+<html>
+  
+  <head>
+    <title> Raghvendra sharma's Portfolio </title>
+    <link rel="stylesheet" href="por.css">
+  </head>
+  
+  <body>
+  
+    <header>
+      <h1> Raghvendra Sharma </h1>
+      <p> Student  </p>
+    </header>
+   
+    <nav>
+     <ul>
+      
+       <li><a href="#">Education</a></li>
+       <li><a href="#">Projects</a></li>
+       <li><a href="#">Experience</a></li>
+       <li><a href="#">Skills</a></li>
+       <li><a href="#">Certifications</a></li>
+       <li><a href="#">Hobbies</a></li>
+       <li><a href="#">Contact</a></li>
+       <li><a href="#" onClick="showAdminSection()">Admin Login</a></li> <!-- This would be a JS implementation-->
+       
+      </ul>
+    </nav>
+    
+    <button id="toggle-theme">Toggle Theme</button> 
+     
+    
+    <main>
+      
+      <section id="education" class="section">
+        <h2> Education </h2>
+        
+        
+        <div class="edu-item">
+          <h3>Bachelor of Technology (B.Tech) </h3>
+          <p> BIT MESRA , 2022-2026</p>
+        </div>
+        
+        <div class="edu-item">
+          <h3>12TH Class <h3></h3>
+          <p> AVM SR SEC School , 2020-2021</p>
+        </div>
+        
+        <div class="edu-item">
+          <h3> 10TH Class </h3>
+          <p> AVM SR SEC School  , 2018-2019 </p>
+        </div>
+        
+      </section>
+      
+     
+      
+      <section id="projects" class="section">
+        <h2> Projects </h2>
+        <div class="">
+          <h3> E-Commerce Apparel Website</h3>
+          <p> Developed an E-Commerce website with BootStrap</p>
+        </div>
+        
+        <div class="">
+          <h3> Personal Portfolio</h3>
+          <p>Developed my personal portfolio using HTML, CSS and JS.</p>
+        </div>
+        
+        <div class="">
+          <h3>3D Coin collection game</h3>
+          <p> Developed a game, free runner, where the player has to collect coins in limited time</p>
+        </div>
+        
+      </section>
+      
+      <section id="experience" class="section">
+        <h2> Experience </h2>
+
+        <div class="">
+          <h3> Software Engineer at Google</h3>
+          <p> 2020 - Present</p>
+        </div>
+        
+        <div class="">
+          <h3> Technical Trainer at Learning Zone</h3>
+          <p>Trained students on various Tech Topics</p>
+          <p> 2023 - Present</p>
+        </div>
+        
+        <div class="">
+          <h3>Head of Curriculum at Learning Zone</h3>
+          <p> Developed all the lesson plans taught in classes for learning Zone</p>
+          <p> 2022 - Present</p>
+        </div>
+        
+      </section>
+      <section id="skills" class="section">
+        <h2> Skills </h2>
+        <div class="">
+          <h3>Programming In java </h3>
+        
+        </div>
+        
+        <div class="">
+          <h3> Html , Css , JavaScript </h3>
+        </div>
+        
+        <div class="">
+          <h3>Data Structures And Algorithms</h3>
+        </div>
+        
+      </section>
+    
+    <section id="certifications" class="section">
+      <h2> Certifications</h2>
+      <div class="">
+        <h3>Data Structure And Algorithms In Java By microsoft  </h3>
+        <h3>FUll Stack Development By yhills  </h3>
+      </div>
+     
+    </section>
+    <section id="hobbies" class="section">
+      <h2> Hobbies </h2>
+      <div class="">
+        <h3>Reading Books  </h3>
+        <h3>Sudying About New Technologies  </h3>
+        <h3>Playing Cricket  </h3>
+      </div>
+   </section>
+       
+   <section id="contact" class="section">
+        <h2> Contact Me </h2>
+        <form id = "contact-form">
+          <label> Name </label>
+          <input type="text" id="name" placeholder="Your name..." required>
+          <label> Email </label>
+          <input type="email" id="email" placeholder="Your email..." required>
+          <label> Your message </label>
+          <textarea id="message" placeholder="Your message..." required></textarea> 
+          <div class="contactbtn">
+          <button id="submit">Send</button>
+          </div>
+        </form>
+      </section>
+      
+      <section id="admin-login" class="section">
+        <h2> Admin Login </h2>
+        <form id = "admin-form">
+          <label> Username </label>
+          <input type="text" id="username" required>
+          <label> Password </label>
+          <input type="password" id="password" required>
+          <button type="submit">Login</button> <!-- This is required to make a submit event in JS-->
+        </form>
+      </section>
+      <!-- Admin login section ends here-->
+      
+      <section id="admin-section" class="section">
+        <h2>User Responses</h2>
+        <div id="user-responses">
+        
+        </div>
+      </section>  
+  
+    </main>
+    <script src="ac.js"></script>
+  </body>
+  
+  
+</html>
